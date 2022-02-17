@@ -1,6 +1,6 @@
 import UIKit
 
-public class Event: EventDescriptor {
+public final class Event: EventDescriptor {
   public var dateInterval = DateInterval()
   public var isAllDay = false
   public var text = ""
